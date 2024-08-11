@@ -38,6 +38,8 @@ class Service:
                                            performer=track_task.artist, chat_id=chat_id)
                 await self._bot.delete_message(chat_id=chat_id, message_id=msg.message_id)
 
+                self._find_service.delete_track(filename)
+
             except InterruptedError as interrupted:
                 print(interrupted)
                 await self._find_service.close()
