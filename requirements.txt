@@ -1,0 +1,13 @@
+python-dotenv
+pydantic-settings~=2.4.0
+bs4~=0.0.2
+lxml
+Brotli
+aiogram~=3.11.0
+asyncspotify~=0.12.1
+
+pydantic~=2.8.2
+requests~=2.32.3
+aiohttp~=3.10.2
+beautifulsoup4~=4.12.3
+confluent-kafka~=2.5.0
